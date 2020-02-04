@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/parser'
+
+AWB::Parser.new.parse(ARGV.first)
